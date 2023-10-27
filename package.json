@@ -11,7 +11,7 @@
   },
   "scripts": {
     "serve": "concurrently  \"bun --hot index.ts\" \"bun --hot tailwindcss --watch -o public/style.css\"",
-    "build": "concurrently  \"bun index.ts\" \"bun tailwindcss -o public/style.css -m\""
+    "build": "bun tailwindcss -o dist/style.css -m && mkdir -p dist && cp -R public/fonts dist/ && cp index.html dist/"
   },
   "dependencies": {
     "concurrently": "^8.2.2"
