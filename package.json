@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "tailwindcss": "^3.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "serve": "concurrently  \"bun --hot index.ts\" \"bun --hot tailwindcss --watch -o public/style.css\"",
+    "build": "concurrently  \"bun index.ts\" \"bun tailwindcss -o public/style.css -m\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
