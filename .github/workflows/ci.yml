@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Install bun
+      - uses: oven-sh/setup-bun@v1
+
+      - name: Install Bun dependencies
+        run: bun install
+
+      - name: Build website
+        run: bun run build
