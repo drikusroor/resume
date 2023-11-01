@@ -780,6 +780,10 @@ video {
     gap: 0.75rem;
   }
 
+  .print\:rounded-none {
+    border-radius: 0px;
+  }
+
   .print\:border {
     border-width: 1px;
   }
@@ -812,6 +816,15 @@ video {
   .print\:border-yellow-700 {
     --tw-border-opacity: 1;
     border-color: rgb(161 98 7 / var(--tw-border-opacity));
+  }
+
+  .print\:bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  }
+
+  .print\:bg-transparent {
+    background-color: transparent;
   }
 
   .print\:bg-none {
