@@ -1,6 +1,8 @@
 # Drikus Roor Resume
 
-This is the printable resume website of Drikus Roor of 2023/2024.
+[![CI](https://github.com/drikusroor/resume/actions/workflows/ci.yml/badge.svg)](https://github.com/drikusroor/resume/actions/workflows/ci.yml)
+
+This is the printable resume website of Drikus Roor of 2023/2024. You can visit it on [https://drikusroor.github.io/resume/](https://drikusroor.github.io/resume/)
 
 ## Getting started
 
