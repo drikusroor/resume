@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/drikusroor/resume/actions/workflows/ci.yml/badge.svg)](https://github.com/drikusroor/resume/actions/workflows/ci.yml)
 
-This is the printable resume website of Drikus Roor of 2023/2024. You can visit it on [https://drikusroor.github.io/resume/](https://drikusroor.github.io/resume/)
+This is the printable resume website of Drikus Roor of 2023/2024. You can visit it on [https://drikusroor.github.io/resume/](https://drikusroor.github.io/resume/) or download the PDF version [here](https://github.com/drikusroor/resume/blob/main/Drikus%20Roor%20-%20Resume.pdf).
 
 ## Getting started
 
