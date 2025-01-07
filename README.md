@@ -22,3 +22,4 @@ This project was created using `bun init` in bun v1.0.0. [Bun](https://bun.sh) i
 
 ## Export to PDF
 
+To export the resume to PDF, print the page with the browser and save it as a PDF. Be sure to select the option to include background graphics and to turn off headers and footers.
