@@ -12,9 +12,10 @@
   "scripts": {
     "serve": "concurrently  \"bun --hot index.ts\" \"bun --hot tailwindcss --watch -o public/style.css\"",
     "build": "bun tailwindcss -o dist/style.css -m && mkdir -p dist && cp -R public/fonts dist/ && cp index.html dist/",
-    "export": "bun tailwindcss -o public/style.css && bun export.ts"
+    "export": "bun tailwindcss -o dist/style.css && bun export.ts"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001692",
     "concurrently": "^8.2.2",
     "puppeteer": "^23.11.1"
   }
